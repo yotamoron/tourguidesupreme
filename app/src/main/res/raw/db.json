@@ -1,0 +1,153 @@
+{
+  "guides": [
+    {
+      "guideId": 1,
+      "guideName": "Yazek",
+      "tours": [ 1, 2 ],
+      "image": "yazek"
+    },
+    {
+      "guideId": 2,
+      "guideName": "Shmil",
+      "tours": [ 3 ],
+      "image": "shmil"
+    }
+  ],
+  "tours": [
+    {
+      "tourId": 1,
+      "guideId": 1,
+      "tourName": "Tel Mond",
+      "locations": [ 1, 2, 3 ]
+
+    },
+    {
+      "tourId": 2,
+      "guideId": 1,
+      "tourName": "Herut",
+      "locations": [ 4, 5, 6 ]
+
+    },
+    {
+      "tourId": 3,
+      "guideId": 2,
+      "tourName": "Emek Hefer",
+      "locations": [ 7, 8 ]
+
+    }
+  ],
+  "locations": [
+    {
+      "locationId": 1,
+      "locationName": "Habanot Square",
+      "videoId": "GeBIOw3MBD8",
+      "links": [
+        {
+          "link": "http://www.ezy.co.il/memoSite.asp?memorial_id=175",
+          "description": "A short history of the square"
+        },
+        {
+          "link": "http://www.rishonim.org.il/telmond/show_item.asp?itemId=35356&levelId=45323&itemType=10&template=3",
+          "description": "Hadas Dror, one of the victims"
+        }
+      ],
+      "geo": "geo:32.250333,34.918592?q=32.250333,34.918592"
+    },
+    {
+      "locationId": 2,
+      "locationName": "Beit Halordim",
+      "videoId": "s-7zXEOx_lU",
+      "links": [
+        {
+          "link": "http://www.lordim.co.il/",
+          "description": "That's how the place used to look..."
+        },
+        {
+          "link": "http://www.ynet.co.il/articles/0,7340,L-3483034,00.html",
+          "description": "Ynet article"
+        }
+      ],
+      "geo": "geo:32.248374,34.905960?q=32.248374,34.905960"
+    },
+    {
+      "locationId": 3,
+      "locationName": "Beit Halord",
+      "videoId": "VyrSgNinWZI",
+      "links": [
+        {
+          "link": "http://www.rishonim.org.il/telmond/",
+          "description": "Beit Halord site"
+        }
+      ],
+      "geo": "geo:32.251262,34.918598?q=32.251262,34.918598"
+    },
+    {
+      "locationId": 4,
+      "locationName": "Entrance",
+      "videoId": "-LedxxvLyFo",
+      "links": [
+        {
+          "link": "http://www.moshav-herut.org.il/",
+          "description": "So much to do in Herut..."
+        }
+      ],
+      "geo": "geo:32.244540,34.913982?q=32.244540,34.913982"
+    },
+    {
+      "locationId": 5,
+      "locationName": "Hanan Hagaban",
+      "videoId": "gw3xwUqAgQY",
+      "links": [
+        {
+          "link": "http://www.2eat.co.il/restaurant.aspx?restid=20105",
+          "description": "Excellent reviews!"
+        },
+        {
+          "link": "http://www.milk.org.il/cgi-webaxy/sal/sal.pl?lang=he&ID=645657_milk&act=show&dbid=katavot&dataid=cheesing.htm",
+          "description": "How cheese is made (warning - Graphic!!)"
+        }
+      ],
+      "geo": "geo:32.241436,34.915656?q=32.241436,34.915656"
+    },
+    {
+      "locationId": 6,
+      "locationName": "The swimming pool",
+      "videoId": "zQ3ZjemB0k8",
+      "links": [
+        {
+          "link": "http://www.moshav-herut.org.il/committees/Herut_pool_codex.php",
+          "description": "Takanon - 'cause you can't do without it."
+        }
+      ],
+      "geo": "geo:32.238664,34.916937?q=32.238664,34.916937"
+    },
+    {
+      "locationId": 7,
+      "locationName": "Kfar Yedidia",
+      "videoId": "ae4x7HG1_gU",
+      "links": [
+        {
+          "link": "http://www.kyedidya.org.il/HTMLs/Home.aspx",
+          "description": "The village's website"
+        },
+        {
+          "link": "https://he.wikipedia.org/wiki/%D7%9B%D7%A4%D7%A8_%D7%99%D7%93%D7%99%D7%93%D7%99%D7%94",
+          "description": "Wiki page"
+        }
+      ],
+      "geo": "geo:32.347232,34.899406?q=32.347232,34.899406"
+    },
+    {
+      "locationId": 8,
+      "locationName": "Mishmar Hasharon",
+      "videoId": "TB7z0EN8j7c",
+      "links": [
+        {
+          "link": "https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%9E%D7%A8_%D7%94%D7%A9%D7%A8%D7%95%D7%9F",
+          "description": "Wiki page"
+        }
+      ],
+      "geo": "geo:32.357469,34.904638?q=32.357469,34.904638"
+    }
+  ]
+}
